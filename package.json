@@ -1,0 +1,17 @@
+{
+  "name": "try-babel-register-esm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "yarn nyc --all mocha --loader=babel-register-esm test.js"
+  },
+  "dependencies": {
+    "@babel/core": "^7.19.3",
+    "@babel/plugin-proposal-pipeline-operator": "^7.18.9",
+    "babel-register-esm": "^1.2.3",
+    "mocha": "^10.1.0",
+    "nyc": "^15.1.0"
+  }
+}
